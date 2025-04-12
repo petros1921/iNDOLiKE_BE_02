@@ -2,7 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
 const path = require("path")
-const ShortUrl = require("./models/shortUrl")
+const ShortUrl = require("./models/shorturl")
 
 const app = express()
 require('dotenv').config();
